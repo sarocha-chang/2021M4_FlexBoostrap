@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.head {
+  background-color: #c5a897;
+  color: white;
+}
+.nameshop {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: rgb(59, 59, 59);
+}
+.navbar {
+  border-top: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  width: 50%;
+}
+.nav {
+  font-size: 20px;
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 30px 5px 30px;
+}
+.nav:hover {
+  color: rgb(202, 150, 104);
+}
+.container {
+  display: flex;
+  margin-top: 30px;
+}
+.container p {
+  font-size: 20px;
+  font-weight: 600;
+}
+div.d-flex.flex-column {
+  font-size: 18px;
+  padding: 30px 15px 0px 15px;
+  border: 1px solid rgb(235, 235, 235);
+}
+div.d-flex.flex-row {
+  padding: 20px;
+  border: 1px solid rgb(235, 235, 235);
+}
+.content {
+  font-weight: 350;
+  padding: 10px 10px 10px 20px;
+  color: rgb(138, 98, 64);
+}
+.group .item {
+  border: 1px solid rgb(235, 235, 235);
+  padding: 10px;
+  margin: 10px 10px 30px 10px;
+}
+.item h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(175, 128, 87);
+}
+.item p {
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer > div {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: #c5a897;
+}
